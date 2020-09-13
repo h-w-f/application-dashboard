@@ -6,7 +6,7 @@
 	<repo>https://github.com/h-w-f/dashboard</repo>
 	<dependencies>
 		<view>
-			<name>Dashboard</name>
+			<name>Default</name>
 			<repo>https://github.com/h-w-f/dashboard-default</repo>
 			<is_default>true</is_default>
 		</view>

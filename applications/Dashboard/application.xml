@@ -3,20 +3,33 @@
 	<name>Dashboard</name>
 	<description>Dashboard Application</description>
 	<version>0.0.1</version>
-	<repo>https://github.com/h-w-f/dashboard</repo>
+	<repo>https://github.com/h-w-f/application-dashboard</repo>
 	<dependencies>
 		<view>
 			<name>Default</name>
 			<version>0.0.1</version>
-			<repo>https://github.com/h-w-f/dashboard-default</repo>
-			<is_default>true</is_default>
+			<repo>https://github.com/h-w-f/view-dashboard-default</repo>
 		</view>
 		<component>
 			<name>Hw</name>
 			<version>0.0.1</version>
-			<repo>https://github.com/h-w-f/dashboard-hw</repo>
-			<is_default>true</is_default>
+			<repo>https://github.com/h-w-f/component-dashboard-hw</repo>
+		</component>
+		<component>
+			<name>Home</name>
+			<version>0.0.1</version>
+			<repo>https://github.com/h-w-f/component-dashboard-home</repo>
 		</component>
 	</dependencies>
+	<settings>
+		<view>
+			<name>Default</name>
+			<is_default>true</is_default>
+		</view>
+		<component>
+			<name>Home</name>
+			<is_default>true</is_default>
+		</component>
+	</settings>
 	<is_default>true</is_default>
 </application>

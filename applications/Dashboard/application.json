@@ -1,0 +1,43 @@
+{
+	"name"			: "Dashboard",
+	"displayName" 	: "Dashboard Application",
+	"description" 	: "Dashboard Site Application",
+	"version"		: "0.0.1",
+	"repo"			: "https://github.com/h-w-f/application-dashboard",
+	"dependencies"	: {
+		"core"			: {
+			"Core" : {
+				"name"		: "Core",
+				"version"	: "0.0.1",
+				"repo"		: "https://github.com/h-w-f/core"
+			}
+		},
+		"components"	: {
+			"Home" : {
+				"name"		: "Home",
+				"version"	: "0.0.1",
+				"repo"		: "https://github.com/h-w-f/component-dashboard-home"
+			}
+		},
+		"packages"		: {
+		},
+		"middlewares"		: {
+		},
+		"views"			: {
+			"Default" : {
+				"name"		: "Default",
+				"version"	: "0.0.1",
+				"repo"		: "https://github.com/h-w-f/view-dashboard-default"
+			},
+			"DefaultHome" : {
+				"name"		: "DefaultHome",
+				"version"	: "0.0.1",
+				"repo"		: "https://github.com/h-w-f/view-dashboard-default-home"
+			}
+		}
+	},
+	"settings"		: {
+		"view" 			: "Default",
+		"component" 	: "Home"
+	}
+}

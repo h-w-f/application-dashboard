@@ -2,7 +2,7 @@
 	"name"			: "Dashboard",
 	"displayName" 	: "Dashboard Application",
 	"description" 	: "Dashboard Site Application",
-	"version"		: "0.0.1",
+	"version"		: "0.0.2",
 	"repo"			: "https://github.com/h-w-f/application-dashboard",
 	"dependencies"	: {
 		"core"			: {
